@@ -19,10 +19,10 @@ const responseObjectDataAll = {
 
 /**
  * メモを全件取得するAPI
- * @returns{Object[]} data
- * @returns{number} data.id - ID
- * @returns{string} data.title - タイトル
- * @returns{string} data.text - 内容
+ * @returns {Object[]} data
+ * @returns {number} data.id - ID
+ * @returns {string} data.title - タイトル
+ * @returns {string} data.text - 内容
  */
 router.get('/',function(req,res,next){
     //全件取得して返す
